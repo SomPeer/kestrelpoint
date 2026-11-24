@@ -1,7 +1,7 @@
-# Image to Three.js miner
+# Prompt photo to Three.js module
 
-Generates a Three.js module for a prompt image through the competition witness: drafts, selection, rewrites against
-renders and a final pick, within the per-prompt budget.
+Each prompt photo becomes a single Three.js module via the competition witness: drafts, a selection, rewrites
+checked against renders and a final pick, all inside the per-prompt budget.
 
 Entry point: `main.py` -> `async generate(image, seed, witness) -> str | None`. The plan is in `miner404/versions.py`.
 
